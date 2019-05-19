@@ -17,6 +17,7 @@
 		DA548CA3227C816E005F3F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA548CA1227C816E005F3F9C /* LaunchScreen.storyboard */; };
 		DA548CAE227C816E005F3F9C /* ColorGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA548CAD227C816E005F3F9C /* ColorGameTests.swift */; };
 		DA548CB9227C816E005F3F9C /* ColorGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA548CB8227C816E005F3F9C /* ColorGameUITests.swift */; };
+		DA548CC7227C9DB7005F3F9C /* spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA548CC6227C9DB7005F3F9C /* spark.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DA548CB4227C816E005F3F9C /* ColorGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA548CB8227C816E005F3F9C /* ColorGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGameUITests.swift; sourceTree = "<group>"; };
 		DA548CBA227C816F005F3F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA548CC6227C9DB7005F3F9C /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				DA548C94227C816D005F3F9C /* GameScene.sks */,
 				DA548C96227C816D005F3F9C /* Actions.sks */,
 				DA548C98227C816D005F3F9C /* GameScene.swift */,
+				DA548CC6227C9DB7005F3F9C /* spark.sks */,
 				DA548C9A227C816D005F3F9C /* GameViewController.swift */,
 				DA548C9C227C816D005F3F9C /* Main.storyboard */,
 				DA548C9F227C816E005F3F9C /* Assets.xcassets */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA548C9E227C816D005F3F9C /* Main.storyboard in Resources */,
+				DA548CC7227C9DB7005F3F9C /* spark.sks in Resources */,
 				DA548C95227C816D005F3F9C /* GameScene.sks in Resources */,
 				DA548CA0227C816E005F3F9C /* Assets.xcassets in Resources */,
 				DA548CA3227C816E005F3F9C /* LaunchScreen.storyboard in Resources */,
@@ -453,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pb.ColorGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pb.ColorGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
