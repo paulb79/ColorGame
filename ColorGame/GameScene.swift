@@ -51,7 +51,7 @@ class GameScene: SKScene {
                 let randomNumberForVelocity = GKRandomSource.sharedRandom().nextInt(upperBound: 3)
                 velocityArray.append(trackVelocities[randomNumberForVelocity])
                 
-                directionArray.append(GKRandomSource.sharedRandom().nextBool()) 
+                directionArray.append(GKRandomSource.sharedRandom().nextBool())
             }
         }
     }
